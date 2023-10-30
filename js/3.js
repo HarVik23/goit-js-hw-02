@@ -1,6 +1,11 @@
-"user strit"
+"user strict"
 
-function checkForSpam(message){
+function checkForSpam(message) {
+    if (message.toLowerCase().includes("spam") || message.toLowerCase().includes("sale")) {
+        return true;
+    } else {
+        return false;
+    }
 
     
 }

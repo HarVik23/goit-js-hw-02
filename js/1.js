@@ -1,4 +1,4 @@
-"user strit"
+"user strict"
 
 function makeTransaction(quantity, pricePerDroid, customerCredits) {
 
